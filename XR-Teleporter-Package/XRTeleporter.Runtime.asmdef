@@ -1,0 +1,20 @@
+{
+  "name": "XRTeleporter.Runtime",
+  "rootNamespace": "XRTeleporter",
+  "references": [
+    "UnityEngine",
+    "Unity.XR.Management",
+    "Unity.XR.CoreUtils",
+    "Unity.XR.Interaction.Toolkit",
+    "Oculus.VR",
+    "Oculus.Interaction"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}
