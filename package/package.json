@@ -1,14 +1,21 @@
 {
   "name": "com.j0nes-l.xr-teleporter",
   "displayName": "XR Teleporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "6000.0",
   "description": "XR Teleporter package with locomotion/teleport functionality for Unity 6.",
-  "author": {"name": "Jonas Ludorf"},
-  "repository":"github:j0nes-L/XR-Teleporter",
+  "author": { "name": "Jonas Ludorf" },
+  "repository": "github:j0nes-L/XR-Teleporter",
   "license": "MIT",
   "dependencies": {
     "com.unity.xr.management": "4.4.0",
     "com.meta.xr.sdk.all": "78.0.0"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Example Scene",
+      "description": "Demo scene showing XR Teleporter functionalites.",
+      "path": "XR-Teleporter-Sample~"
+    }
+  ]
 }
