@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.j0nes-l.xr-teleporter": {
+      "version": "https://github.com/j0nes-L/XR-Teleporter.git?path=/XR-Teleporter-Package",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.xr.management": "4.4.0",
+        "com.meta.xr.sdk.all": "78.0.0"
+      },
+      "hash": "5971b67cadcea615d2adbc30a026a0995e3ad6a0"
+    },
     "com.meta.xr.mrutilitykit": {
       "version": "78.0.0",
       "depth": 1,

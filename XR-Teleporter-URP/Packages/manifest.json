@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.j0nes-l.xr-teleporter": "https://github.com/j0nes-L/XR-Teleporter.git?path=/XR-Teleporter-Package",
     "com.meta.xr.sdk.all": "78.0.0",
     "com.unity.ai.navigation": "2.0.6",
     "com.unity.collab-proxy": "2.9.3",
