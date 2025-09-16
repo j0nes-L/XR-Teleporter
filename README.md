@@ -20,5 +20,5 @@ When you first drag the `XRTeleporter` prefab into a scene with a configured `OV
 Additionally you will have to manually add your desired `ShapeRecognizer` assets for the hand pose recognition. If you have the Meta AIO SKD installed, you can find them under:  
 `Packages/Meta XR Interaction SDK Essentials > Runtime > Sample > Poses > Shapes` (or just create your own)
 
-Now go and have fun with it :)  
+Now go and have fun with it! I'll try updating it from time to time!
 ~ Jonas
