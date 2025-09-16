@@ -1,7 +1,7 @@
 {
   "name": "com.j0nes-l.xr-teleporter",
   "displayName": "XR Teleporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "unity": "6000.0",
   "description": "XR Teleporter package with locomotion/teleport functionality for Unity 6.",
   "author": { "name": "Jonas Ludorf" },
@@ -12,10 +12,10 @@
     "com.meta.xr.sdk.all": "78.0.0"
   },
   "samples": [
-    {
-      "displayName": "Example Scene",
-      "description": "Demo scene showing XR Teleporter functionalites.",
-      "path": "XR-Teleporter-Sample~"
-    }
-  ]
+  {
+    "displayName": "XR Teleporter Sample",
+    "description": "A demo scene with prefabs and baked lightmaps.",
+    "path": "Samples~/XR Teleporter Sample"
+  }
+]
 }
