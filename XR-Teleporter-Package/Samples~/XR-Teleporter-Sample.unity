@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 35ad78fc34b9b0147af2eb0032759288, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 0d57dc494a53f864bb7e52914c7c82a8, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: c4165018af5974742ba166633b15dae4, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -2284,6 +2284,42 @@ PrefabInstance:
     - target: {fileID: 332378381555889680, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521475860994722122, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
+      propertyPath: isTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521475860994722122, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
+      propertyPath: onTeleport.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521475860994722122, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
+      propertyPath: onTeleport.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521475860994722122, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
+      propertyPath: onTeleport.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1227733672}
+    - target: {fileID: 2521475860994722122, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
+      propertyPath: onTeleport.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521475860994722122, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
+      propertyPath: onTeleport.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521475860994722122, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
+      propertyPath: onTeleport.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521475860994722122, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
+      propertyPath: onTeleport.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521475860994722122, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
+      propertyPath: onTeleport.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6782417808990806467, guid: d0890001d70e3f644a1a27e8fda5a01c, type: 3}
       propertyPath: m_Name
