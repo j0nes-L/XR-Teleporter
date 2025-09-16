@@ -12,6 +12,8 @@
 /XR-Teleporter-URP/[Uu]ser[Ss]ettings/
 *.log
 
+/XR-Teleporter-URP/Assets/XR-Teleporter-Package
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 XR-Teleporter-URP/[Mm]emoryCaptures/
