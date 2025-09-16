@@ -139,7 +139,7 @@ MonoBehaviour:
   teleportMode: 0
   features: -1
   debugMode: 0
-  teleportButton: 1
+  teleportButton: 131072
   maxPointingRange: 12
   minPointingRange: 1
   surfaceOffset: 0.05
@@ -155,7 +155,7 @@ MonoBehaviour:
   rotationStep: 45
   layerMaskToIgnore:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4
   teleportAimPose: {fileID: 0}
   teleportConfirmPose: {fileID: 0}
   curveSegments: 20
