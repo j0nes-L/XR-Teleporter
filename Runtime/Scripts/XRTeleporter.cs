@@ -155,6 +155,9 @@ public class XRTeleporter : MonoBehaviour
         calculatedHandForward = CalculateHandForward();
         StartCoroutine(HandTrackingTeleportCooldown());
 
+        if(!teleportAimPose || !teleportConfirmPose)
+            Debug.LogError("Missing Shape Recognizer! You can find prebuild poses under: Packages > Meta XR Interaction SDK Essentials > Runtime > Sample > Poses > Shapes");
+
         if (useEmissiveMaterials) targetRenderer.materials[1].EnableKeyword("_EMISSION");
         else targetRenderer.materials[1].DisableKeyword("_EMISSION");
 

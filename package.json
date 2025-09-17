@@ -1,7 +1,7 @@
 {
   "name": "com.j0nes-l.xr-teleporter",
   "displayName": "XR Teleporter",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "unity": "6000.0",
   "description": "XR Teleporter package with locomotion/teleport functionality for Unity 6.",
   "author": { "name": "Jonas Ludorf" },
